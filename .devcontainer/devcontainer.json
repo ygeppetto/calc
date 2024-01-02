@@ -3,24 +3,6 @@
   "hostRequirements": {
     "cpus": 4
   },
-  "settings": {
-
-		"terminal.integrated.profiles.linux": {
-
-			"bash": {
-
-				"path": "/usr/bin/bash",
-
-				"icon": "terminal-bash"
-
-			}
-
-		},
-
-		"terminal.integrated.defaultProfile.linux": "bash"
-
-	},
-
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -r requirements.txt",
   "postCreateCommand": "",
